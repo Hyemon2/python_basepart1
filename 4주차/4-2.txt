@@ -1,0 +1,17 @@
+s=input("문자열을 입력하시오 :")
+text1 = s[0:2]
+text2 = s[4:6]
+print(text1,text2)
+
+-
+
+symbol = input("기호를 입력하시오:")
+string=input("문자열을 입력하시오 :")
+result = symbol[0]+string+symbol[1]
+print(result)
+
+-
+
+print("나는 현재 "+str(21)+"살이다")
+print('원주율은 '+str(3.14)+'입니다.')
+#str() 함수는 숫자를 문자열로 변환해주는 역할을 한다.
